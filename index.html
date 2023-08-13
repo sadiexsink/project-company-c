@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TESLAxgit</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <h1>TESLA PAGE</h1>
-    <p>Al usar npm o Yarn, si tiene 100 proyectos que usan una dependencia, tendrá 100 copias 
-        de esa dependencia guardadas en el disco. Con pnpm, la dependencia se almacenará en un 
-        almacén direccionable por contenido, por lo que:</p>
-    
-</body>
+    <p>
+      Al usar npm o Yarn, si tiene 100 proyectos que usan una dependencia,
+      tendrá 100 copias de esa dependencia guardadas en el disco. Con pnpm, la
+      dependencia se almacenará en un almacén direccionable por contenido, por
+      lo que:
+    </p>
+    <p>
+      Si depende de diferentes versiones de la dependencia, solo los archivos
+      que difieren se agregan a la tienda. Por ejemplo, si tiene 100 archivos y
+      una nueva versión tiene un cambio en solo uno de esos archivos, pnpm
+      updatesolo agregará 1 archivo nuevo a la store, en lugar de clonar toda la
+      dependencia solo para el cambio singular. Todos los archivos se guardan en
+      un solo lugar en el disco. Cuando se instalan los paquetes, sus archivos
+      están vinculados desde ese único lugar, sin consumir espacio adicional en
+      el disco. Esto le permite compartir dependencias de la misma versión entre
+      proyectos.
+    </p>
+  </body>
 </html>
